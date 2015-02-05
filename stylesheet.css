@@ -2,6 +2,46 @@ div {
     border-radius: 5px;
 }
 
+#sitemast {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+    height: 40px;
+    width: 99.5%;
+    position: absolute;
+    z-index: 1;
+    background: #F4EBC3 no-repeat 0 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#sitemast h1 {
+    font-size: 2em;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    /* hide-from-IE5/Mac hack \*/
+    top: auto;
+    bottom: 0;
+/* end hack */
+}
+
+#sitemast h1 a {
+    padding: 0 0.25em;
+}
+
+#sitemast h1 a, .panel a {
+    text-decoration: none;
+}
+
 #header {
     z-index: 1;
     position: fixed;
@@ -48,8 +88,17 @@ li {
     list-style-type: square;
 }
 
+a {
+    color: #890101;
+    text-decoration: none;
+    -moz-transition: 0.2s color linear;
+    -webkit-transition: 0.2s color linear;
+    transition: 0.2s color linear;
+}
+
 a:hover {
     font-weight: bold;
+    color: #DF3030;
 }
 
 .left {
@@ -91,4 +140,21 @@ a:hover {
 
 #asian {
     font-family: KaiTi;
+}
+
+.body {
+    float: left;
+    position: relative;
+    margin-top: 50px;
+}
+
+footer {
+    position: relative;
+    clear: both;
+    text-align: center;
+    background: #F4EBC3 no-repeat 0 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
