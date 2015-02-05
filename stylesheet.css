@@ -97,7 +97,6 @@ a {
 }
 
 a:hover {
-    font-weight: bold;
     color: #DF3030;
 }
 
@@ -152,9 +151,13 @@ footer {
     position: relative;
     clear: both;
     text-align: center;
-    background: #F4EBC3 no-repeat 0 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    color: gray;
+}
+
+#host {
+    float: left;
+}
+
+#author {
+    float: right;
 }
