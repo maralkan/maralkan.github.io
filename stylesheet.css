@@ -88,3 +88,7 @@ a:hover {
     position: relative;
     padding-top: 15px;
 }
+
+#asian {
+    font: "KaiTi";
+}
