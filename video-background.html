@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="bckvid-stylesheet.css"/>
+    <title>[TEST] Building a Video Background</title>
+    <meta name="author" content="Marvin Alcantara">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,700,600,800,900' rel='stylesheet' type='text/css'>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="bckvid-stylesheet.css"/ media-"all">
 	<script src="js/jquery.mb.YTPlayer.js"></script>
-	<title>[TEST] Video Background | Marvin Alcantara</title>
 </head>
 <body>
-	<section class="big-background">
-		<a title="COSTA RICA IN 4K 60fps (ULTRA HD) w/ Freefly Movi" class="player mb_YTVPlayer" id="bgndVideo" style="background: none; display: none;" data-property="{videoURL:'https://www.youtube.com/watch?v=iNJdPyoqt8U',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
-        <div class='pattern'></div>
-        <div class='big-background-container'>
-        	<h1 class='big-background-title'>YOUTUBE</h1>
-        	<div class='divider'></div>
-        	<h1 id='colorize'>VIDEO BACKGROUND</h1>
-        	<a href='#' class='big-background-btn'>Back to the Article</a>
+    <section class="big-background">
+        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=iNJdPyoqt8U',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>  
+        <div class="pattern"></div> 
+        <div class="big-background-container">
+            <h1 class="big-background-title">YOUTUBE</h1>
+            <div class="divider"></div>
+            <h1 id="colorize">VIDEO BACKGROUND</h1>
+            <a href="http://designmodo.com/video-background-website/" class="big-background-btn">Back to the Article</a>
         </div>
     </section>
     <div class="wrapper">
@@ -40,10 +41,5 @@
             </div>
         </section>
     </div>
-    <script>
-    $(function(){
-    	$(".player").mb_YTPlayer();
-    });
-    </script>
 </body>
 </html>
