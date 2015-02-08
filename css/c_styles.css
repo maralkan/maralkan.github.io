@@ -1,0 +1,52 @@
+/*********** CSS Document for Contact Form ***********/
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	text-align: center;
+	font-family: Arial;
+	font-size: 18px;
+	color: #000;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 500px;
+}
+
+#contactform {
+	border: 5px solid #ccc;
+	width: 440px;
+	margin: 25px;
+	padding: 5px;
+}
+
+label {
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+input, textarea {
+	width: 310px;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+}
+
+input.submit {
+	width: 100px;
+	margin-left:70px;
+}
+
+p.error {
+	color: red;
+	text-transform: uppercase;
+}
+
+p.sent {
+	color: green;
+}

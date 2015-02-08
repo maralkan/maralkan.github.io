@@ -3,7 +3,7 @@
 <head>
 	<title>Marvin A Contact Form</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="c_styles.css">
 </head>
 <body>
 	<div id="wrapper">
@@ -27,3 +27,4 @@
 		</div>
 	</div>
 </body>
+</html>
