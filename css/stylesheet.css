@@ -22,7 +22,6 @@ div {
 #sitemast h1 {
     font-size: 2em;
     line-height: 1em;
-    letter-spacing: 0.1em;
     padding: 0;
     margin: 0;
     position: absolute;
@@ -149,6 +148,7 @@ a:hover {
 
 footer {
     position: relative;
+    padding-bottom: 5%;
     clear: both;
     text-align: center;
     color: gray;
@@ -160,4 +160,17 @@ footer {
 
 #author {
     float: right;
+}
+
+#redirect {
+    float: right;
+    position: relative;
+}
+
+#webContent {
+    padding-left: 40px;
+}
+
+#a2f {
+    font-family: Lobster;
 }

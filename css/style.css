@@ -48,6 +48,7 @@ ul li {
     position:absolute;
     top:0;
     left:0
+    opacity:0.7;
 }
 
 .divider {
@@ -197,6 +198,10 @@ a.about-section-btn {
     background: #34495e;
 }
 
+#a2f {
+    font-family: Lobster;
+    text-transform: lowercase;
+}
 
 
 /* SMALL VIDEO BACKGROUND 
