@@ -2,14 +2,15 @@
 if($_POST['submit']) {
 	if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['comments'])) {
 		$error = true;
-	} else {
+	}
+	else {
 		$to = "marveen1520@gmail.com";
 
 		$name = trim($_POST['name']);
 		$email = trim($_POST['email']);
 		$comments = trim($_POST['comments']);
 
-		$subject = "Contact Form";
+		$subject = "New feedback for website";
 
 		$messages = "Name: $name \r\n Email: $email \r\n Comments: $comments";
 		$headers = "From" . $name;
