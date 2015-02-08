@@ -137,20 +137,20 @@ a:hover {
 }
 
 #asian {
-    font-family: KaiTi;
+    font-family: 微软雅黑;
 }
 
 .body {
     float: left;
     position: relative;
     margin-top: 50px;
+    width: 90%;
 }
 
 footer {
     position: relative;
     padding-bottom: 5%;
     clear: both;
-    text-align: center;
     color: gray;
 }
 
@@ -165,6 +165,7 @@ footer {
 #redirect {
     float: right;
     position: relative;
+    padding-left: 40px;
 }
 
 #webContent {
