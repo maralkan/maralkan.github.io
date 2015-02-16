@@ -21,10 +21,23 @@ body {
 }
 
 
+nav {
+    display: inline-block;
+    margin-top: 20px;
+    float: right;
+    z-index: 1000;
+}
+
+nav a {
+    padding-left: 20px;
+}
+
+
 p {
     font-size:20px;
     line-height:140%;
     text-align:center
+    width: 80%;
 }
 
 
@@ -157,7 +170,7 @@ a.big-background-btn {
 .about-section-container {
     text-align:center;
     padding-bottom:50px
-    width: 90%;
+    width: 70%;
 }
 
 .about-section-title {
