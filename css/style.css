@@ -23,13 +23,26 @@ body {
 
 nav {
     display: inline-block;
-    margin-top: 20px;
+    position: relative;
     float: right;
     z-index: 1000;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 nav a {
-    padding-left: 20px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition:.4s background ease;
+    -moz-transition:.4s background ease;
+    -o-transition:.4s background ease;
+    transition:.4s background ease;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.4);
 }
 
 
