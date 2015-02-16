@@ -75,6 +75,12 @@ ul li {
     top:0;
     left:0
     opacity:0.7;
+    
+    -webkit-animation: fadein 0.5s ease 0s forwards;
+    -moz-animation: fadein 0.5s ease 0s forwards;
+    -ms-animation: fadein 0.5s ease 0s forwards;
+    -o-animation: fadein 0.5s ease 0s forwards;
+    animation: fadein 0.5s ease 0s forwards;
 }
 
 .divider {
