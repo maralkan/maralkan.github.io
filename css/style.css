@@ -112,6 +112,13 @@ ul li {
     position:absolute;
     top:50%;
     left:50%;
+    
+    -webkit-animation: fadein 0.5s ease 0s forwards;
+    -moz-animation: fadein 0.5s ease 0s forwards;
+    -ms-animation: fadein 0.5s ease 0s forwards;
+    -o-animation: fadein 0.5s ease 0s forwards;
+    animation: fadein 0.5s ease 0s forwards;
+    
     -webkit-transform:translate(-50%,-50%);
     -moz-transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%);
