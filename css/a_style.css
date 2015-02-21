@@ -1,6 +1,6 @@
 /*
-Tutorial Name: Modernize Your Site: Building a YouTube Video Background 
-Author: Samuel Dalusung
+Original CSS Author: Samuel Dalusung
+Changes: Marvin Alcantara
 */
 
 
@@ -101,8 +101,8 @@ ul li {
 .big-background {
     z-index:550;
     text-align:center;
-    height:60%;
-    min-height:60%;
+    height:70%;
+    min-height:50%;
     position:relative;
     overflow:hidden
 }
