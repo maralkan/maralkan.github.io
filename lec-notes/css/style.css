@@ -169,16 +169,26 @@ h3 {
     min-height: 175px;
   }
 }
-.cool-photo {
-  background-image: url(http://lorempixel.com/1300/400/abstract);
+.cool-photo-geo {
+  background-image: url(http://lorempixel.com/1300/300/nature/3/Source-LoremPixel);
+}
+
+.cool-photo-soc {
+  background-image: url(http://lorempixel.com/1300/300/people/8/Source-LoremPixel);
 }
 
 .cool-photo2 {
-  background-image: url(http://lorempixel.com/1300/400/food);
+  background-image: url(http://lorempixel.com/1300/300/city/Source-LoremPixel);
 }
 
 .post {
   padding: 1.875em;
+}
+
+quote {
+    display: block;
+    padding: 1.875em;
+    text-align: right;
 }
 
 .columns {
