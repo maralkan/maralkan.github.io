@@ -1,21 +1,81 @@
+<!doctype html>
 <html>
+    
     <head>
-        <meta title="Contact Me">
-        <meta author="Marvin Alcantara">
+        <title>Contact Me! Marvin Alcantara</title>
+        
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700|Righteous' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+        
+        <script src="js/modernizr.js"></script>
     </head>
+    
     <body>
-        <section>
-            <h3>Let's work together</h3>
-            <form method="POST" action="//forms.brace.io/marveen1520@gmail.com">
-                <div class="contact-info-group">
-                    <label><span>Your Name</span><input type="text" name="name"></label>
-                    <label><span>Your Email</span><input type="text" name="_replyto"></label>
+       
+        <header class="header">
+            <div class="container">
+                <h1 class="site-title">Marvin Alc&aacute;ntara</h1>
+                <span class="site-tagline">B.A. Cognitive Science, 2017 | University of California at Berkeley</span>
+            </div>
+        </header>
+        <nav class="main-nav">
+            <div class="container">
+                <ul>
+                    <li class="mobile-button"><a href="#">Menu</a></li>
+                    <li><a href="/index.html">About</a></li>
+                    <li><a href="/lec-notes/index.html">Works</a></li>
+                    <ul>
+                        <li><a href="/lec-notes/meteor.html">Meteorology</a></li>
+                        <li><a href="/lec-notes/as-am.html">As - Am Studies</a></li>
+                        <li><a href="#geog">Geography</a></li>
+                    </ul>
+                    <li><a href="/works/index.html">Works</a></li>
+                    <ul>
+                        <li><a href="/works/artist-theme.html">Artist's Theme</a></li>
+                        <li><a href="/works/fixnav.html">Fixed Nav Bar</a></li>
+                        <li><a href="/works/video-theme.html">Video Theme</a></li>
+                    </ul>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    <section class="content">
+        <article class="post">
+            <div class="container">
+                <h3>Get in touch with me!</h3>
+                <div class="columns">
+                    <div class="item">
+                        <h4 class="item-title">Please fill out your name and email and include a reason for contact.</h4>
+                        <form action="//formspree.io/marveen1520@gmail.com">
+                            <p>Name</p>
+                            <p><input type="text" name="name" placeholder="Maralkan"></p>
+                            <p>Email</p>
+                            <p><input type="email" name="_replyto" placeholder="your@email.com"></p>
+                            <p>Subject</p>
+                            <p><input type="text" name="_subject" placeholder="Schedule Bible Study"></p>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
                 </div>
-                <label><span>Tell me about your project</span><textarea name="message"></textarea></label>
-                <div class="submit-wrap">
-                    <input type="submit" value="Send">
-                </div>
-            </form>
-        </section>
+            </div>
+        </article>
+    </section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy 2015 Made with love by <a href="http://maralkan.github.io/">Marvin Alcantara</a></p>
+    </div>
+</footer>
+
+<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+<script src="js/index.js"></script>
+        
     </body>
+    
 </html>

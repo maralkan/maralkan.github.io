@@ -68,6 +68,7 @@ h3 {
 
 .site-title {
   color: white;
+  font-family: "Rock Salt", cursive;
 }
 
 .site-tagline {
@@ -189,6 +190,12 @@ quote {
     display: block;
     padding: 1.875em;
     text-align: right;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+.asian {
+    font-family: 'cwTeXKai', serif;
 }
 
 .columns {
