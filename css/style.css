@@ -195,7 +195,12 @@ quote {
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
 
 .asian {
-    font-family: 'cwTeXKai', serif;
+    font-family: 'KaiTi', serif;
+}
+
+@font-face {
+    font-family: 'KaiTi';
+    src: url(/fonts/simkai.ttf);
 }
 
 .columns {
