@@ -10,13 +10,18 @@ body {
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "KaiTi";
+    src: url(/fonts/simkai.ttf);
+}
+
 .container {
   max-width: 75em;
   margin: 0 auto;
 }
 
 .header {
-  background: #00ced1;
+  background: #0B8B87;
   color: white;
   padding: 0.625em;
 }
@@ -125,6 +130,18 @@ h3 {
   position: absolute;
   left: -99999em;
 }
+.main-nav ul li ul {
+    display: none;
+    position: absolute;
+}
+.main-nav ul li:hover > ul {
+    display: block;
+}
+.main-nav ul li ul li {
+    display: block;
+    width: 100%;
+}
+
 @media (max-width: 700px) {
   .main-nav ul {
     -webkit-flex-wrap: wrap;
@@ -192,15 +209,8 @@ quote {
     text-align: right;
 }
 
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
-
 .asian {
-    font-family: 'KaiTi', serif;
-}
-
-@font-face {
-    font-family: 'KaiTi';
-    src: url(/fonts/simkai.ttf);
+    font-family: "KaiTi", serif;
 }
 
 .columns {
