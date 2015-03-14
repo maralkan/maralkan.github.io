@@ -126,6 +126,7 @@ h3 {
 .main-nav ul a:hover, .main-nav ul a:focus {
   background: #ffe5a5;
   color: #419cd8;
+  border-radius: 3px;
 }
 .main-nav ul .mobile-button a {
   position: absolute;
