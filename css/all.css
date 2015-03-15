@@ -1,10 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     }
 
 header {
     height: 450px;
-    background: url(../images/sunset.jpg) center center;
+    background: url(http://lorempixel.com/1300/300/nature/3/) center center;
     background-size: cover;
 }
 
@@ -13,20 +18,16 @@ header .logo {
     width: 50px;
     float: left;
     margin: 10px 0px 0px 30px;
-    background: #000;
-}
-
-header .logo path {
-    fill: rgba(0,0,0,0.7);
 }
 
 nav {
     float: right;
     margin: 30px 30px 0px 0px;
+    display: block;
 }
 
 nav a {
-    display: inline-block;
+    display: block;
     margin-left: 20px;
     color: rgba(0,0,0,0.7);
     font-size: 14px;
@@ -43,7 +44,7 @@ h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 700;
-    color: white;
+    color: #ddd;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 10px;
@@ -52,7 +53,7 @@ h1 {
 }
 
 h1 span {
-    display: inline-block;
+    display: block;
     padding: 0.2em 0.5em;
     border: white solid 10px;
 }

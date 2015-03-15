@@ -11,8 +11,8 @@ body {
 }
 
 @font-face {
-    font-family: "KaiTi";
-    src: url(/fonts/simkai.ttf);
+    font-family: "KaiTi", serif;
+    src: url(../fonts/simkai.ttf);
 }
 
 .container {
@@ -267,6 +267,15 @@ quote {
 .columns .item:hover .social .fa:hover, .columns .item:focus .social .fa:hover {
   color: #759ab2;
 }
+.columns .item form .contact {
+    display:inline-table;
+    padding: 20px 0;
+    min-width: 100%;
+}
+.contact .input {
+    color: rgba(0,0,0,0.2)
+}
+
 @media (max-width: 660px) {
   .columns .item {
     max-width: 100%;
@@ -297,7 +306,7 @@ quote {
 }
 
 .footer {
-  background: #00ced1;
+  background: #0B8B87;
   color: white;
   padding: 0.9375em;
   text-align: center;
