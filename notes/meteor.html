@@ -1,88 +1,152 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Meteorology 3 - ELAC | Maralkan</title>
-        <link type="text/css" rel="stylesheet" href="/css/stylesheet.css">
-        <link type="text/css" rel="stylesheet" href="/css/normalize.css">
-    </head>
+    <meta charset="UTF-8">
+    
+    <title>Meteorology 3 - ELAC | Maralkan</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700|Righteous|Marck+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css" />
+    
+    <script src="/js/modernizr.js"></script>
+    
+</head>
     <body>
-        <div id="header">
-            <p id="name"><a href="#top">Meterology 3</a></p>
-            <a href="mailto:marveen1520@gmail.com"><p id="email">marveen1520@gmail.com</p></a>
-        </div>
-        <div class="left"></div>
-        <div class="right">
-            <h4>Temperature Inversions</h4>
-            <p>Ideal conditions for temperature inversions:</p>
-            <ul>
-                <li>Air is calm</li>
-                <li>Moisture content of the air</li>
-                <li>Cloudiness</li>
-            </ul>
-            <p><img src="images/thermal-belts.jpg" alt="Thermal Belts"><caption>Avocados can grow below a thermal belt</caption></p>
-            <table>
-                <tr>
-                    <th style="padding: 5px 15px;">Element</th>
-                    <th style="padding: 5px 15px;">Controls</th>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 15px;">Atmospheric Temperature</td>
-                    <td style="padding: 5px 15px;">Latitude</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 15px;">Atmospheric Pressure</td>
-                    <td style="padding: 5px 15px;">Land-Water Distribution</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 15px;">Atmospheric Wind</td>
-                    <td style="padding: 5px 15px;">Atmospheric Circulation</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 15px;">Atmospheric Moisture</td>
-                    <td style="padding: 5px 15px;">Ocean Circulation</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 15px;"></td>
-                    <td style="padding: 5px 15px;">Elevation</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 15px;"></td>
-                    <td style="padding: 5px 15px;">Topographic Features</td>
-                </tr>
-                <tr>
-                    <td style="padding: 5px 15px;"></td>
-                    <td style="padding: 5px 15px;">Storms</td>
-                </tr>
-            </table>
-            <p>Sierra Nevada Mountains as an example:</p>
-            <ul>
-                <li>Windward side:</li>
+        <header class="header">
+	        <div class="container">
+	            <h1 class="site-title">Meteorology 3</h1>
+                <span class="site-tagline">East Los Angeles College, Spring 2015</span>
+	        </div>
+	    </header>
+	    <nav class="main-nav">
+            <div class="container">
                 <ul>
-                    <li>a parcel of air moving up</li>
-                    <li>air mass density decreases</li>
-                    <li>wet side</li>
+                    <li class="mobile-button"><a href="#">Menu</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/notes/">Notes</a>
+                        <ul>
+                            <li><a href="/notes/as-am">As - Am Studies</a></li>
+                            <li><a href="/notes/bible-studies">Bible Studies</a></li>
+                            <li><a href="/notes/chn2">Chinese</a></li>
+                            <li><a href="/notes/geo">Geography</a></li>
+                            <li><a href="#top">Meteorology</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/works/">Works</a>
+                        <ul>
+                            <li><a href="/works/artist-theme">Artist's Theme</a></li>
+                            <li><a href="/works/fixnav">Fixed Nav Bar</a></li>
+                            <li><a href="/works/video-theme">Video Theme</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
-                <li>Lee side:</li>
-                <ul>
-                    <li>dry side</li>
-                    <li>Las Vegas, vegatation is desert</li>
-                    <li>Topographics influence climate</li>
-                </ul>
-            </ul>
-            <p>Question: What is it that pushes the air down the leeway side of a mountain</p>
-            <ul>
-                <li id="edu">Good example: Santa Ana winds</li>
-                <ul>
-                    <li>wind keeps moving in the same direction</li>
-                    <li>difference between air pressure keeps the wind moving down</li>
-                    <li>we have a basin that tends to exacerbate the compression</li>
-                    <li>the wind will eventually dissipate due to the wet side having less pressure</li>
-                </ul>
-                <li id="edu">counter-example: the Mistral in France</li>
-                <ul>
-                    <li>sometimes the air is so cold that despite heating by compression, the air remains cold</li>
-                </ul>
-            </ul>
+            </div>
+        </nav>
+        <section class="content">
+            <div class="full-bleed cool-photo-geo"></div>
+            <article class="post">
+                <div class="container">
+                    <h3>Lecture Notes</h3>
+                    <div class="columns thirds">
+                        <div class="item">
+                            <h4 class="item-title">Temperature Inversions</h4>
+                            <p>Ideal conditions for temperature inversions:</p>
+                            <ul>
+                                <li>Air is calm</li>
+                                <li>Moisture content of the air</li>
+                                <li>Cloudiness</li>
+                            </ul>
+                            <p><img src="images/thermal-belts.jpg" alt="Thermal Belts"><caption>Avocados can grow below a thermal belt</caption></p>
+                        </div>
+                        
+                        <div class="item">
+                            <h4 class="item-title">Elements and Controls</h4>
+                            <table>
+                                <tr>
+                                    <th style="padding: 5px 15px;">Element</th>
+                                    <th style="padding: 5px 15px;">Controls</th>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 5px 15px;">Atmospheric Temperature</td>
+                                    <td style="padding: 5px 15px;">Latitude</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 5px 15px;">Atmospheric Pressure</td>
+                                    <td style="padding: 5px 15px;">Land-Water Distribution</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 5px 15px;">Atmospheric Wind</td>
+                                    <td style="padding: 5px 15px;">Atmospheric Circulation</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 5px 15px;">Atmospheric Moisture</td>
+                                    <td style="padding: 5px 15px;">Ocean Circulation</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 5px 15px;"></td>
+                                    <td style="padding: 5px 15px;">Elevation</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 5px 15px;"></td>
+                                    <td style="padding: 5px 15px;">Topographic Features</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 5px 15px;"></td>
+                                    <td style="padding: 5px 15px;">Storms</td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <div class="item">
+                            <h4 class="item-title">Sierra Nevada Mountains as an example</h4>
+                            <ul>
+                                <li>Windward side:</li>
+                                <ul>
+                                    <li>a parcel of air moving up</li>
+                                    <li>air mass density decreases</li>
+                                    <li>wet side</li>
+                                </ul>
+                                <li>Lee side:</li>
+                                <ul>
+                                    <li>dry side</li>
+                                    <li>Las Vegas, vegatation is desert</li>
+                                    <li>Topographics influence climate</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        
+                        <div class="item">
+                            <h4 class="item-title">Question: What is it that pushes the air down the leeway side of a mountain?</h4>
+                            <ul>
+                                <li>Good example: Santa Ana winds</li>
+                                <ul>
+                                    <li>wind keeps moving in the same direction</li>
+                                    <li>difference between air pressure keeps the wind moving down</li>
+                                    <li>we have a basin that tends to exacerbate the compression</li>
+                                    <li>the wind will eventually dissipate due to the wet side having less pressure</li>
+                                </ul>
+                                <li>counter-example: the Mistral in France</li>
+                                <ul>
+                                    <li>sometimes the air is so cold that despite heating by compression, the air remains cold</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </section>
+            
+            <p></p>
+            
+            <p></p>
+            
             <p>Question: what is causing the warmer temperatures near the 30 degrees North/South?</p>
             <ul>
                 <li id="edu">Atmospheric Circulation</li>
@@ -128,14 +192,15 @@
             <p>There are major differences in temperature readings from thermometer.<br/>Near the surface of the earth, we have air that collides with a thermometer. Lots of air molecules collide.<br>However, in high layers of the atmosphere, there are simply too few air molecules to collide with a thermometer. High readings on thermometers correspond to heating by radiation from the sun. Molecules in this region are actually moving quite fast, but there are too few of them, so it <em>feels</em> cold.</p>
             <h4>Test Review</h4>
             <ol>
-                <li>Primary source of energy for earth's atmosphere</li>
-                <ul>
-                    <li>Sun emits different kinds of solar energy</li>
-                    <li>Electromagnetic Spectrum</li>
-                    <li>Shortwave ultraviolet radiation</li>
-                    <li>Visible light spectrum</li>
-                    <li>Longwave radiation</li>
-                </ul>
+                <li>Primary source of energy for earth's atmosphere
+                    <ul>
+                        <li>Sun emits different kinds of solar energy</li>
+                        <li>Electromagnetic Spectrum</li>
+                        <li>Shortwave ultraviolet radiation</li>
+                        <li>Visible light spectrum</li>
+                        <li>Longwave radiation</li>
+                    </ul>
+                </li>
                 <li>Water Vapor</li>
                 <ul>
                     <li>Carbon Dioxide</li>
@@ -453,9 +518,13 @@
                 <li>Rocky Mts have hi pressure on the windward side and lo pressure on the leeway side/Great Plains.</li>
                 <li>"Snow-Eaters" - these winds can melt a foot of snow in less than a day.</li>
             </ul>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2015 Made with love by <a href="/">Marvin Alc&aacute;ntara</a>. Last updated March 17, 2015.</p>
         </div>
-        <div id="footer">
-			<p>East Los Angeles College | Monterey Park, CA</p>
-		</div>
+    </footer>
+
+    <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+    <script src="/js/index.js"></script>
     </body>
 </html>
