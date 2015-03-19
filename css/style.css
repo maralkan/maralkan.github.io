@@ -1,3 +1,10 @@
+/*  - CSS Document for Unified Theme -
+    - Author: Marvin Alcantara -
+    - You may not copy, distribute, or reverse engineer
+            or any part of this document without consent -
+    - You may obtain consent from me through my contact page -
+*/
+
 body {
   background: #D7F7FE;
   font-family: "Nunito", sans-serif;
@@ -191,15 +198,15 @@ h3 {
   }
 }
 .cool-photo-geo {
-  background-image: url(http://lorempixel.com/1300/300/nature/3/Source-LoremPixel);
+  background-image: url(http://lorempixel.com/1300/300/nature/3);
 }
 
 .cool-photo-soc {
-  background-image: url(http://lorempixel.com/1300/300/people/8/Source-LoremPixel);
+  background-image: url(http://lorempixel.com/1300/300/people/8);
 }
 
 .cool-photo2 {
-  background-image: url(http://lorempixel.com/1300/300/city/Source-LoremPixel);
+  background-image: url(http://lorempixel.com/1300/300/city);
 }
 
 .post {
