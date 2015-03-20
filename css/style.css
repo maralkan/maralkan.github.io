@@ -18,11 +18,6 @@ body {
 }
 
 @font-face {
-    font-family: "StAndrews", cursive;
-    src: url(../fonts/Saint-AndrewsQueen.ttf);
-}
-
-@font-face {
     font-family: "KaiTi", serif;
     src: url(../fonts/simkai.ttf);
 }
@@ -85,7 +80,7 @@ h3 {
 
 .site-title {
   color: white;
-  font-family: "StAndrews", cursive;
+  font-family: "Marck Script", cursive;
 }
 
 .site-tagline {
