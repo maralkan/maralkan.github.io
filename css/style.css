@@ -1,7 +1,7 @@
-/*  - CSS Document for Unified Theme -
-    - Author: Marvin Alcantara -
-    - You may not copy, distribute, or reverse engineer
-            or any part of this document without consent -
+/*  - CSS Document for Flex Theme                            -
+    - Author: Marvin Alcantara                               -
+    - You may not copy, distribute, or reverse engineer      -
+    -       or any part of this document without consent     -
     - You may obtain consent from me through my contact page -
 */
 
@@ -15,6 +15,11 @@ body {
   -webkit-transition: all .65s ease;
           transition: all .65s ease;
   box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "StAndrews", cursive;
+    src: url(../fonts/Saint-AndrewsQueen.ttf);
 }
 
 @font-face {
@@ -80,7 +85,7 @@ h3 {
 
 .site-title {
   color: white;
-  font-family: "Marck Script", cursive;
+  font-family: "StAndrews", cursive;
 }
 
 .site-tagline {

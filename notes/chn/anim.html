@@ -1,0 +1,53 @@
+<!doctype html>
+<HTML>
+<style>
+    @font-face {
+        font-family: "KaiTi", serif;
+        src: url(../fonts/simkai.ttf);
+    }
+    
+</style>
+<script src="/js/combine.js"></script>
+<script src="/js/nooptimize.js"></script>
+<script src="/js/html5slider.js"></script>
+
+<script>
+var plan = 'Star';
+var planColor='#00ff00';
+var bgcolor = '#ffffaa';
+var radicalColor = '#0000ff';
+var strokeColor = '#000000';
+var transientColor = '#ff0000';
+	
+
+
+</script>
+<BODY onLoad="init(document.myform);document.myform.xx.focus()">
+<TABLE CELLSPACING=0 CELLPADDING=0><TR><TD>
+<canvas id="eStroke" width="180" height="180"
+	style = "border:1px solid #000000;">
+</TD></TR>
+<TR><TD>
+<input id="slider" type="range" min="10" max="100" step="1" style="width:180;"
+	onchange="speed=value/10">
+</TR><TD>
+<TR><TD align=center>
+<FORM ACTION=
+	"http://www.eon.com.hk/common/fcg/estroke1.fcg?task=getCanvasContour"
+	align=left name=myform target=req charset=utf-16 method=POST
+	onSubmit = "return getPhraseFor(document.myform.xx.value)">
+<CENTER>
+<INPUT TYPE=text name=xx SIZE=3 valign=top
+		style = "font-size:12pt; font-family:'KaiTi';"
+		onchange="getPhraseFor(document.myform.xx.value)">
+</CENTER>
+<INPUT TYPE=hidden name=uni>
+<INPUT TYPE=hidden name=screenWidth value="180">
+<INPUT TYPE=hidden name=bias value="Simplified">
+</FORM>
+</TD></TR>
+</TABLE>
+<IFRAME name=req WIDTH=0 HEIGHT=0></IFRAME>
+</BODY>
+</HTML>
+
