@@ -209,6 +209,10 @@ h3 {
   background-image: url(http://lorempixel.com/1300/300/city);
 }
 
+.seeking-photo {
+    background-image: url(http://www.justcris.com/wp-content/uploads/2012/03/seeking.jpg)
+}
+
 .post {
   padding: 1.875em;
 }

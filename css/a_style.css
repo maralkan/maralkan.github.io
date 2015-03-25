@@ -32,7 +32,6 @@ nav {
 }
 
 nav a {
-    position: relative;
     padding: 20px 20px 20px 20px;
     color: white;
     text-transform: uppercase;
@@ -48,16 +47,29 @@ nav a:hover {
     color: rgba(0,0,0,0.8);
 }
 
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+nav ul li:hover > ul {
+    display: block;
+    background: inherit;
+    width: auto;
+    clear: both;
+}
+nav ul li ul li {
+    display: block;
+}
+
 
 p {
     font-size:20px;
     line-height:140%;
-    text-align:center
-    width: 80%;
+    text-align:center;
 }
 
 
-ul li {
+ul li, ul li ul li {
     display:inline-block;
     list-style:none;
     padding-right: 10px;
@@ -76,7 +88,7 @@ ul li {
     height:100%;
     position:absolute;
     top:0;
-    left:0
+    left:0;
     opacity:0.7;
 }
 
@@ -233,22 +245,6 @@ a.about-section-btn {
 .about-section-btn:hover {
     color:#fff;
     background: #34495e;
-}
-
-#a2f {
-    font-family: Lobster;
-    text-transform: lowercase;
-}
-
-.colleges {
-    float: left;
-    margin-left: 40px;
-    clear: left;
-}
-
-a.colleges {
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 
