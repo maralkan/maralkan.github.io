@@ -7,7 +7,7 @@
 
 body {
   background: #D7F7FE;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #222;
 }
 
@@ -28,8 +28,6 @@ body {
 }
 
 .header {
-  background: #0B8B87;
-  color: white;
   padding: 0.625em;
 }
 .header .container {
@@ -67,9 +65,9 @@ body {
   }
 }
 
-.site-title, h1, h2, h3 {
-  font-family: "Righteous", sans-serif;
-  font-size: 2.625em;
+h1, h2, h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.1em;
   color: #024654;
 }
 
@@ -79,8 +77,8 @@ h3 {
 }
 
 .site-title {
-  color: white;
-  font-family: "Marck Script", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.625em;
 }
 
 .site-tagline {
@@ -89,11 +87,11 @@ h3 {
 }
 
 .main-nav {
-  background: #ffc125;
+  background: #1A577F;
   color: white;
 }
 .main-nav a {
-  color: #1A577F;
+  color: white;
   text-decoration: none;
 }
 .main-nav ul, .main-nav li {
@@ -131,9 +129,10 @@ h3 {
   z-index: 3000;
 }
 .main-nav ul a:hover, .main-nav ul a:focus {
-  background: #ffe5a5;
-  color: #419cd8;
+  background: #44b7ba;
+  color: black;
   border-radius: 3px;
+  font-weight: 400;
 }
 .main-nav ul .mobile-button a {
   position: absolute;
@@ -145,7 +144,7 @@ h3 {
 }
 .main-nav ul li:hover > ul {
     display: inherit;
-    background: #ffc125;
+    background: #1A577F;
     width: auto;
 }
 .main-nav ul li ul li {
@@ -255,7 +254,7 @@ quote {
   color: #011d23;
   font-size: 24px;
   margin: 0 0 5px 0;
-  font-family: "Righteous", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .columns .item .item-image {
   max-width: 100%;
