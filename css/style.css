@@ -169,8 +169,8 @@ h3 {
     width: 100%;
   }
   .main-nav ul.open li.mobile-button a {
-    background: #ffe092;
-    color: #0e3447;
+    background: #44b7ba;
+    color: white;
   }
   .main-nav ul.open a {
     position: static;
@@ -245,7 +245,7 @@ quote {
   max-width: 47%;
   background: #b1dbf0;
   color: #1A577F;
-  border-bottom: 5px solid #ffc125;
+  border-bottom: 5px solid #1A577F;
   margin-bottom: 2.1875em;
   position: relative;
   overflow: hidden;
@@ -261,7 +261,7 @@ quote {
 }
 .columns .item:hover, .columns .item:focus {
   background: #e8f4fa;
-  border-bottom-color: #00ced1;
+  border-bottom-color: #44b7ba;
 }
 .columns .item:hover .social, .columns .item:focus .social {
   position: absolute;
@@ -271,7 +271,7 @@ quote {
   padding: 10px 0;
 }
 .columns .item:hover .social .fa, .columns .item:focus .social .fa {
-  color: #00ced1;
+  color: #44b7ba;
   padding: 0 0.3125em;
 }
 .columns .item:hover .social .fa:hover, .columns .item:focus .social .fa:hover {
@@ -316,14 +316,14 @@ quote {
 }
 
 .footer {
-  background: #0B8B87;
+  background: #1A577F;
   color: white;
   padding: 0.9375em;
   text-align: center;
   font-size: 0.8125em;
 }
 .footer a {
-  color: #ffc125;
+  color: #44b7ba;
   text-decoration: none;
   border-bottom: 1px solid;
 }
