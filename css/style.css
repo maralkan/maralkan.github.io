@@ -185,7 +185,7 @@ h3 {
 
 .full-bleed {
   background-size: cover;
-  min-height: 280px;
+  min-height: 240px;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -197,15 +197,15 @@ h3 {
   }
 }
 .cool-photo-geo {
-  background-image: url(http://lorempixel.com/1300/280/nature/3);
+  background-image: url(http://lorempixel.com/1300/240/nature/3);
 }
 
 .cool-photo-soc {
-  background-image: url(http://lorempixel.com/1300/280/people/8);
+  background-image: url(http://lorempixel.com/1300/240/people/8);
 }
 
 .cool-photo2 {
-  background-image: url(http://lorempixel.com/1300/280/city);
+  background-image: url(http://lorempixel.com/1300/240/city);
 }
 
 .seeking-photo {
