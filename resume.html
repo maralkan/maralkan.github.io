@@ -16,12 +16,9 @@
         <script src="js/modernizr.js"></script>
     </head>
 	<body>
-	    <header class="header">
-	        <div class="container">
-	            <h1 class="site-title">Marvin Alc&aacute;ntara</h1>
-                <span class="site-tagline">R&eacute;sum&eacute;</span>
-	        </div>
-	    </header>
+	    <header class="box">
+            <div class="logo"></div>
+        </header>
 	    <nav class="main-nav">
             <div class="container">
                 <ul>
@@ -50,7 +47,6 @@
         </nav>
         
         <section class="content">
-            <div class="full-bleed cool-photo2"></div>
             <article class="post">
                 <div class="container">
                     <!-- Objective and Education Section -->
@@ -204,11 +200,22 @@
         </section>
 		<footer class="footer">
             <div class="container">
-                <p>&copy; 2015 Made with love by <a href="/">Marvin Alc&aacute;ntara</a>. Last updated April 17, 2015.</p>
+                <p>&copy; 2015 Made with love by <a href="/">Marvin Alc&aacute;ntara</a>. Last updated May 1, 2015.</p>
             </div>
         </footer>
 
         <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
         <script src="/js/index.js"></script>
+        <script>
+    $(window).scroll(function(){
+        
+        var wScroll = $(this).scrollTop();
+        
+        $('.logo').css({
+            'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+        });
+      
+    });
+</script>
 	</body>
 </html>

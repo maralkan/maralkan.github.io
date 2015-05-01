@@ -12,10 +12,8 @@ html(lang="en")
     link(rel="stylesheet", href="css/style.css", media="screen", type="text/css")
     script(src="js/modernizer.js")
   body
-    header.header
-      .container
-        h1.site-title Contact
-        span.site-tagline Thanks!
+    header.box
+      .logo
     nav.main-nav
       .container
         ul
@@ -50,7 +48,6 @@ html(lang="en")
           li
             a(href="/contact") Contact
     section.content
-      .full-bleed.cool-photo-geo
       article.post
         .container
           h2 Get in touch with me!
@@ -60,6 +57,8 @@ html(lang="en")
               a(href="/contact") Return
     footer.footer
       .container
-        <p>&copy; 2015 Made with love by <a href="/">Marvin Alc&aacute;ntara</a>. Last updated April 17, 2015.</p>
+        <p>&copy; 2015 Made with love by <a href="/">Marvin Alc&aacute;ntara</a>. Last updated May 1, 2015.</p>
     script(src="http://codepen.io/assets/libs/fullpage/jquery.js")
     script(src="js/index.js")
+    script
+      $(window).scroll(function(){ var wScroll = $(this).scrollTop(); $('.logo').css({'transform' : 'translate(0px, '+ wScroll /2 +'%)'});});
