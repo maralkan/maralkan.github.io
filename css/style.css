@@ -6,7 +6,7 @@
 */
 
 body {
-  background: #D7F7FE;
+  background: #BDE9F3;
   font-family: "Open Sans", sans-serif;
   color: #222;
 }
@@ -25,6 +25,7 @@ body {
 .container {
   max-width: 75em;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .header {
@@ -70,19 +71,23 @@ body {
 .box {
   position: relative;
   height: 240px;
-  background-image: url(http://lorempixel.com/1300/240/nature/3);
-  background-size: auto 240px;
+  background-image: url(../images/beach_header.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
   overflow: hidden;
 }
 
-.logo {
-  height:110px;
-  width: 100%;
-  background-image: url(/images/site-title.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+header span {
+  background-color: #024654;
+  opacity: 1;
+}
+
+header span .logo {
+  height: 110px;
+  /*background-position: center;
+  background-repeat: no-repeat;*/
   position: absolute;
   top: 50%;
   margin-top: -55px;
@@ -127,10 +132,10 @@ h3 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: right;
+  -webkit-align-items: right;
+      -ms-flex-align: right;
+          align-items: right;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -232,7 +237,8 @@ h3 {
 }
 
 .seeking-photo {
-    background-image: url(http://www.justcris.com/wp-content/uploads/2012/03/seeking.jpg)
+    background-image: url(http://www.justcris.com/wp-content/uploads/2012/03/seeking.jpg);
+    background-attachment: fixed;
 }
 
 .post {
@@ -247,6 +253,7 @@ quote {
 
 .asian {
     font-family: "KaiTi", serif;
+    font-size: 1.5em;
 }
 
 .columns {
@@ -272,7 +279,16 @@ quote {
   margin-bottom: 2.1875em;
   position: relative;
   overflow: hidden;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out;
 }
+
+.columns .item.is-showing {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
 .columns .item .item-title {
   color: #011d23;
   font-size: 24px;
@@ -300,7 +316,7 @@ quote {
 .columns .item:hover .social .fa:hover, .columns .item:focus .social .fa:hover {
   color: #759ab2;
 }
-.columns .item form .contact {
+.columns .item form {
     display:inline-table;
     padding: 20px 0;
     min-width: 100%;
@@ -342,9 +358,17 @@ quote {
   background: #1A577F;
   color: white;
   padding: 0.9375em;
-  text-align: center;
   font-size: 0.8125em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
+.footer.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 .footer a {
   color: #44b7ba;
   text-decoration: none;
