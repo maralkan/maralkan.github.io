@@ -7,8 +7,13 @@ CSS Document for Artist's Theme
 
 /* GENERAL STYLES
 ================================================== */
+@font-face {
+    font-family: "KaiTi", serif;
+    src: url(../fonts/simkai.ttf);
+}
+
 html {
-    height:100%
+    height:100%;
 }
 
 body {
@@ -18,7 +23,7 @@ body {
     height:100%;
     width:100%;
     -webkit-font-smoothing:antialiased;
-    -webkit-text-size-adjust:100%
+    -webkit-text-size-adjust:100%;
 }
 
 
@@ -77,7 +82,7 @@ ul li, ul li ul li {
 
 .wrapper {
     z-index:600;
-    position:relative
+    position:relative;
 }
 
 .pattern {
@@ -97,17 +102,19 @@ ul li, ul li ul li {
     display:block;
     width:300px;
     height:35px;
-    margin:10px auto
+    margin:10px auto;
 }
 
 
 #colorize {
     color:#f1c40f;
     font-family:'Lato',sans-serif;
-    font-size:40px
+    font-size:40px;
 }
 
-
+.asian {
+    font-family: "KaiTi", serif;
+}
 
 /* BIG VIDEO BACKGROUND
 ================================================== */
@@ -117,7 +124,7 @@ ul li, ul li ul li {
     height:70%;
     min-height:50%;
     position:relative;
-    overflow:hidden
+    overflow:hidden;
 }
 
 .big-background .big-background-container {
@@ -127,18 +134,18 @@ ul li, ul li ul li {
     position:absolute;
     top:50%;
     left:50%;
-    
+
     -webkit-animation: fadein 0.5s ease 0s forwards;
     -moz-animation: fadein 0.5s ease 0s forwards;
     -ms-animation: fadein 0.5s ease 0s forwards;
     -o-animation: fadein 0.5s ease 0s forwards;
     animation: fadein 0.5s ease 0s forwards;
-    
+
     -webkit-transform:translate(-50%,-50%);
     -moz-transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%);
     -o-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%)
+    transform:translate(-50%,-50%);
 }
 
 .big-background-title {
@@ -153,7 +160,7 @@ ul li, ul li ul li {
     display:inline-block;
     background-attachment:scroll;
     background-repeat:repeat-x;
-    background-position:top center
+    background-position:top center;
 }
 
 a.big-background-btn {
@@ -177,7 +184,7 @@ a.big-background-btn {
 
 .big-background-btn:hover {
     color:#fff;
-    background:rgba(255,255,255,0.20)
+    background:rgba(255,255,255,0.20);
 }
 
 .big-background-default-image {
@@ -188,7 +195,7 @@ a.big-background-btn {
     width:100%;
     height:100%;
     z-index:0;
-    backface-visibility:hidden
+    backface-visibility:hidden;
 }
 
 
@@ -199,13 +206,14 @@ a.big-background-btn {
     font-family:'Lato',sans-serif;
     color:#7f8c8d;
     background:#fff;
-    padding:60px 20px
+    padding:60px 20px;
 }
 
 .about-section-container {
-    text-align:center;
-    padding-bottom:50px
-    width: 70%;
+    text-align: center;
+    padding-bottom: 25px;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .about-section-title {
@@ -218,11 +226,10 @@ a.big-background-btn {
     background-attachment:scroll;
     background-repeat:repeat-x;
     background-position:center center;
-    text-transform:uppercase
+    text-transform:uppercase;
 }
-
-
-
+/* ABOUT SECTION BUTTON
+=========================================== */
 a.about-section-btn {
     font-family:'Lato',sans-serif;
     font-size:13px;
@@ -248,19 +255,23 @@ a.about-section-btn {
 }
 
 
-/* SMALL VIDEO BACKGROUND 
+/* SMALL VIDEO BACKGROUND
 ================================================== */
 .small-background-section {
     font-family:'Raleway',sans-serif;
     padding:100px 0;
     position:relative;
     width:100%;
-    overflow:hidden
+    overflow:hidden;
+}
+
+#footer {
+    padding: 0px;
 }
 
 .small-background-container {
     position:relative;
-    text-align:center
+    text-align:center;
 }
 
 .small-background-title {
@@ -275,7 +286,7 @@ a.about-section-btn {
     position:relative;
     background-attachment:scroll;
     background-repeat:repeat-x;
-    background-position:top center
+    background-position:top center;
 }
 
 
@@ -283,11 +294,11 @@ a.about-section-btn {
 /* SOCIALS
 ================================================== */
 .socials a {
-    color:#fff
+    color:#fff;
 }
 
 .socials a:hover {
-    color:#bdc3c7
+    color:#bdc3c7;
 }
 
 
@@ -298,17 +309,17 @@ a.about-section-btn {
 
 @media screen and (max-width: 768px) {
 .about-section-title {
-    line-height:1
+    line-height:1;
 }
 }
 
 @media screen and (max-width: 480px) {
 .big-background-title {
-    font-size:58px
+    font-size:58px;
 }
 
 .small-background-title {
-    line-height:1
+    line-height:1;
 }
 
 /*.player{ display: none;}  -> If you want to remove the video bg on a specific viewport w/o plugin*/
@@ -316,14 +327,12 @@ a.about-section-btn {
 
 @media screen and (max-width: 360px) {
 .big-background-title,#colorize {
-    line-height:1
+    line-height:1;
 }
 }
 
 @media screen and (max-width: 320px) {
 .small-background-title {
-    font-size:30px
+    font-size:30px;
 }
 }
-
-

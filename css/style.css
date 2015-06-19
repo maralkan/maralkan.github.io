@@ -70,8 +70,8 @@ body {
 
 .box {
   position: relative;
-  height: 240px;
-  background-image: url(../images/beach_header.jpg);
+  height: 200px;
+  background-image: url(../images/sunset.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
@@ -80,8 +80,10 @@ body {
 }
 
 header span {
-  background-color: #024654;
+  background-color: #1A577F;
   opacity: 1;
+  color: white;
+  padding: 5px 10px;
 }
 
 header span .logo {
@@ -364,9 +366,10 @@ quote {
   width: 100%;
 }
 
-.footer.container {
+.footer .container {
   max-width: 640px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .footer a {
