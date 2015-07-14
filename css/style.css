@@ -281,14 +281,9 @@ quote {
   margin-bottom: 2.1875em;
   position: relative;
   overflow: hidden;
-  opacity: 0;
+  opacity: 1;
   transform: translateX(-20px);
   transition: all 0.3s ease-in-out;
-}
-
-.columns .item.is-showing {
-  opacity: 1;
-  transform: translateX(0px);
 }
 
 .columns .item .item-title {
