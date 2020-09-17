@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font:15px/23px 'Raleway',sans-serif;
+    font:15px/23px 'Lato',sans-serif;
     margin:0;
     padding:0;
     height:100%;
@@ -259,7 +259,7 @@ a.about-section-btn {
 /* SMALL VIDEO BACKGROUND
 ================================================== */
 .small-background-section {
-    font-family:'Raleway',sans-serif;
+    font-family:'Lato',sans-serif;
     padding:100px 0;
     position:relative;
     width:100%;
